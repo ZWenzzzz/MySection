@@ -1,0 +1,6 @@
+framework module Pods_MySection_Example {
+  umbrella header "Pods-MySection_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
