@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MySection_Example' do
+  pod 'MySection', :path => '../'
+
+  target 'MySection_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
