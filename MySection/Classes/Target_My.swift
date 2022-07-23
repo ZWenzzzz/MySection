@@ -7,10 +7,10 @@
 
 import UIKit
 
-class Target_My {
+class Target_My: NSObject {
 
-    func Action_Controller(for params:[String: Any]) -> UIViewController {
-        let vc: Action_MyViewController = Action_MyViewController()
+     @objc func Action_myViewController(_ params:[String: Any]) -> UIViewController {
+        let vc: MyViewController = MySection.MyViewController()
         return vc
     }
 }
